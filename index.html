@@ -1,0 +1,31 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+    <title>Natural Scence Detection</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/form_upload.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-pload" method=post enctype=multipart/form-data>
+      <h1 class="h3 mb-3 font-weight-normal">Upload an image of Natural Scene</h1>
+      <h5 class = "h3 mb-3 font-weight-normal">Recommended - Buildings, Street, Mountains, Sea, Glaciers, Forest ..</h5>
+      <input type="file" id="image" class="form-control" name="image"  required autofocus>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Predict</button>
+      <br>
+      <h3 class = "h3 mb-3 font-weight-normal">Prediction : {{prediction}}</h3>
+
+    </form>
+  </body>
+</html>
