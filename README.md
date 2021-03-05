@@ -1,4 +1,4 @@
-# Natural-Scene-Detection-using-Deep-Learning
+# Natural-Scene-Detection-using-Deep-Learning - SDS Project 
 This is an end to end project.
 Key features are - 
 1. VGG16 Model creation using transfer learning.
