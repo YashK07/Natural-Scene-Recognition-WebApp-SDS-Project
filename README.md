@@ -5,3 +5,7 @@ Key features are -
 2. The model has been trained on a Analytics Vidhya dataset.
 3. The model has been deployed using flask. 
 4. Use of Bootstrap for CSS part has been done.
+
+![image](https://user-images.githubusercontent.com/61326841/110196100-3e308d80-7e68-11eb-89e5-79f03ac2c19d.png)
+
+
